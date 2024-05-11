@@ -2,8 +2,33 @@ import logo from "./logo.svg";
 import "./App.css";
 import HelloComponent from "./1.BasicReact/1.HelloComponent/HelloComponent";
 import CounterComponent from "./1.BasicReact/2.CounterComponent/CounterComponent";
+import ConditionalRendering from "./1.BasicReact/3.ConditionalRendering/ConditionalRendering";
+import ListComponent from "./1.BasicReact/4.ListComponent/ListComponent";
 
 function App() {
+  const student = [
+    {
+      id: 1,
+      name: "utkarsh",
+      age: 27,
+    },
+    {
+      id: 2,
+      name: "arun",
+      age: 12,
+    },
+    {
+      id: 3,
+      name: "amit",
+      age: 82,
+    },
+    {
+      id: 4,
+      name: "ankit",
+      age: 20,
+    },
+  ];
+
   return (
     // <div className="App">
     // <h2>App </h2>
@@ -34,10 +59,13 @@ function App() {
     // return React.createElement("div", {}, React.createElement("p"));
     // return React.createElement ("div", {}, ""); // this is illegal
     <>
-      <h1>App</h1>
+      {/* <h1>App</h1>
       <HelloComponent name={"utkarsh"} age={12} />
 
-      <CounterComponent />
+      <CounterComponent /> */}
+
+      {/* <ConditionalRendering /> */}
+      <ListComponent students={student} />
     </>
   );
 }
