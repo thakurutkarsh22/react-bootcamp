@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import HelloComponent from "./1.BasicReact/1.HelloComponent/HelloComponent";
+import CounterComponent from "./1.BasicReact/2.CounterComponent/CounterComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
