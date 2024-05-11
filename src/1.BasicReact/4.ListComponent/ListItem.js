@@ -1,5 +1,5 @@
 function ListItem(props) {
-  const { id, name, age } = props;
+  const { id, name, age, address } = props;
 
   return (
     <div
@@ -16,6 +16,7 @@ function ListItem(props) {
     >
       <p>NAME: {name}</p>
       <p>AGE: {age}</p>
+      <p>Address: {address}</p>
     </div>
   );
 }

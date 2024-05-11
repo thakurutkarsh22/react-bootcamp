@@ -4,6 +4,8 @@ import HelloComponent from "./1.BasicReact/1.HelloComponent/HelloComponent";
 import CounterComponent from "./1.BasicReact/2.CounterComponent/CounterComponent";
 import ConditionalRendering from "./1.BasicReact/3.ConditionalRendering/ConditionalRendering";
 import ListComponent from "./1.BasicReact/4.ListComponent/ListComponent";
+import ListItem from "./1.BasicReact/4.ListComponent/ListItem";
+import MultipleState from "./1.BasicReact/5.MultipleState/MultipleState";
 
 function App() {
   const student = [
@@ -65,7 +67,11 @@ function App() {
       <CounterComponent /> */}
 
       {/* <ConditionalRendering /> */}
-      <ListComponent students={student} />
+      {/* <ListComponent students={student} /> */}
+
+      {/* <ListItem id={1} name={"supreme leader"} age={25} address={"asdasd"} /> */}
+
+      <MultipleState />
     </>
   );
 }
