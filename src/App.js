@@ -6,6 +6,9 @@ import ConditionalRendering from "./1.BasicReact/3.ConditionalRendering/Conditio
 import ListComponent from "./1.BasicReact/4.ListComponent/ListComponent";
 import ListItem from "./1.BasicReact/4.ListComponent/ListItem";
 import MultipleState from "./1.BasicReact/5.MultipleState/MultipleState";
+import MultiState from "./1.BasicReact/5.MultipleState/MultiState";
+import NewsComponent from "./1.BasicReact/6.HigherOrderComponent/component/NewsComponent";
+import HigherOrderComponent from "./1.BasicReact/6.HigherOrderComponent/HigherOrderComponent";
 
 function App() {
   const student = [
@@ -71,7 +74,18 @@ function App() {
 
       {/* <ListItem id={1} name={"supreme leader"} age={25} address={"asdasd"} /> */}
 
-      <MultipleState />
+      {/* <MultipleState /> */}
+      {/* <MultiState /> */}
+
+      {/* <NewsComponent /> */}
+
+      <HigherOrderComponent date={new Date().toISOString()}>
+        <NewsComponent />
+      </HigherOrderComponent>
+
+      {/* <HigherOrderComponent date={new Date().toISOString()}>
+        <div>I am crazy</div>
+      </HigherOrderComponent> */}
     </>
   );
 }

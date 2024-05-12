@@ -21,6 +21,7 @@ function MultipleState() {
           setState((oldState) => {
             return {
               ...oldState,
+
               counter: oldState.counter + 1,
               isDay: !oldState.isDay,
             };
