@@ -9,6 +9,10 @@ import MultipleState from "./1.BasicReact/5.MultipleState/MultipleState";
 import MultiState from "./1.BasicReact/5.MultipleState/MultiState";
 import NewsComponent from "./1.BasicReact/6.HigherOrderComponent/component/NewsComponent";
 import HigherOrderComponent from "./1.BasicReact/6.HigherOrderComponent/HigherOrderComponent";
+import PokemonCompo from "./1.BasicReact/7.CallingAPi/PokemonComponent";
+import Parent from "./2.Communication/3.Siblings/Parent";
+// import Parent from "./2.Communication/2.ChildToParent/Parent";
+// import Parent from "./2.Communication/1.ParentToChild/Parent";
 
 function App() {
   const student = [
@@ -79,13 +83,18 @@ function App() {
 
       {/* <NewsComponent /> */}
 
-      <HigherOrderComponent date={new Date().toISOString()}>
+      {/* <HigherOrderComponent date={new Date().toISOString()}>
         <NewsComponent />
-      </HigherOrderComponent>
+      </HigherOrderComponent> */}
 
       {/* <HigherOrderComponent date={new Date().toISOString()}>
         <div>I am crazy</div>
       </HigherOrderComponent> */}
+
+      {/* <PokemonCompo /> */}
+
+      {/* ********** COMMUNICATION ********************** */}
+      <Parent />
     </>
   );
 }
