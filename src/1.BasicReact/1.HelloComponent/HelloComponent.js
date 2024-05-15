@@ -20,3 +20,5 @@ export default HelloComponent;
 
 // Props -> Are the for the component to get the extra info from outside
 // If we want to make our component re-usable we have to use props.
+
+// ******  NEVER USER ANY HOOK IN CONDITIONS **********
