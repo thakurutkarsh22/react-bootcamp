@@ -29,7 +29,7 @@ function Form() {
   const [form, setForm] = useState(DEFAULT_FORM_VALUES);
   // SOURCE OF TRUTH FOR ERRORS
   const [error, setError] = useState(DEFAULT_FORM_ERROR_VALUES);
-  //   Source of truth for touch
+  //   Source of truth for touch -> have i visitd tot not
   const [touched, setTouched] = useState(DEFAULT_FORM_TOUCHED_VALUES);
 
   console.log(form, error, "form + error  STATE");
