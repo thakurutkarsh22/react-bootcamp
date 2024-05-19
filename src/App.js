@@ -11,13 +11,13 @@ import NewsComponent from "./1.BasicReact/6.HigherOrderComponent/component/NewsC
 import HigherOrderComponent from "./1.BasicReact/6.HigherOrderComponent/HigherOrderComponent";
 import PokemonCompo from "./1.BasicReact/7.CallingAPi/PokemonComponent";
 import Parent from "./3.LifeCycleOfComponent/MountingUnMoutingExample/Parent";
-import PokemonDataComponent from "./4.Hook:useEffect/BadEXAMPLEHookUseEffect";
-import UseEffectHookExplanation from "./4.Hook:useEffect/useEffectHookExplanation/useEffectHookExplanation";
+import PokemonDataComponent from "./4.Hook-useEffect/BadEXAMPLEHookUseEffect";
+import UseEffectHookExplanation from "./4.Hook-useEffect/useEffectHookExplanation/useEffectHookExplanation";
 import PokemonAPI from "./5.PokemonAPI/PokemonApi";
 import { useState } from "react";
 import DigitalClock from "./6.DigitalClock/DigitalClock";
 import Form from "./7.Forms/Froms";
-import UseRefHook from "./8.Hook:useRef/1.Basic/UseRefHook";
+import UseRefHook from "./8.Hook-useRef/1.Basic/UseRefHook";
 // import Parent from "./2.Communication/3.Siblings/Parent";
 // import Parent from "./2.Communication/2.ChildToParent/Parent";
 // import Parent from "./2.Communication/1.ParentToChild/Parent";
