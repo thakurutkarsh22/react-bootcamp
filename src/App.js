@@ -18,6 +18,9 @@ import { useState } from "react";
 import DigitalClock from "./6.DigitalClock/DigitalClock";
 import Form from "./7.Forms/Froms";
 import UseRefHook from "./8.Hook-useRef/1.Basic/UseRefHook";
+import ShowPrevValueWithLatest from "./8.Hook-useRef/2.Usage/1.ShowPrevValueWithLatest/ShowPrevValueWithLatest";
+import InputFormComponent from "./8.Hook-useRef/2.Usage/2.InputFormComponent/InputFormComponent";
+import UseReducerExample from "./9.Hook-useReducer/2.Usage/UseReducerExample";
 // import Parent from "./2.Communication/3.Siblings/Parent";
 // import Parent from "./2.Communication/2.ChildToParent/Parent";
 // import Parent from "./2.Communication/1.ParentToChild/Parent";
@@ -125,7 +128,11 @@ function App() {
       {/* <PokemonAPI /> */}
 
       {/* <Form /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      {/* <ShowPrevValueWithLatest /> */}
+      {/* <InputFormComponent /> */}
+
+      <UseReducerExample />
     </>
   );
 }
