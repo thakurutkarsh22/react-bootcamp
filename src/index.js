@@ -7,6 +7,7 @@ import HelloComponent from "./1.BasicReact/1.HelloComponent/HelloComponent";
 import CounterComponent from "./1.BasicReact/2.CounterComponent/CounterComponent";
 import RoutingApp from "./10.RoutingApp/RoutingApp";
 import { BrowserRouter } from "react-router-dom";
+import ContextAPIReactApp from "./11.ContextApi/ContextAPIReactApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,9 +15,11 @@ root.render(
   // <App />
   // </React.StrictMode>
 
-  <BrowserRouter>
-    <RoutingApp />
-  </BrowserRouter>
+  // <BrowserRouter>
+  //   <RoutingApp />
+  // </BrowserRouter>
+
+  <ContextAPIReactApp />
 );
 
 // If you want to start measuring performance in your app, pass a function
