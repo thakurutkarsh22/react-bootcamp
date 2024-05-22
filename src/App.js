@@ -10,7 +10,7 @@ import MultiState from "./1.BasicReact/5.MultipleState/MultiState";
 import NewsComponent from "./1.BasicReact/6.HigherOrderComponent/component/NewsComponent";
 import HigherOrderComponent from "./1.BasicReact/6.HigherOrderComponent/HigherOrderComponent";
 import PokemonCompo from "./1.BasicReact/7.CallingAPi/PokemonComponent";
-import Parent from "./3.LifeCycleOfComponent/MountingUnMoutingExample/Parent";
+// import Parent from "./3.LifeCycleOfComponent/MountingUnMoutingExample/Parent";
 import PokemonDataComponent from "./4.Hook-useEffect/BadEXAMPLEHookUseEffect";
 import UseEffectHookExplanation from "./4.Hook-useEffect/useEffectHookExplanation/useEffectHookExplanation";
 import PokemonAPI from "./5.PokemonAPI/PokemonApi";
@@ -21,6 +21,9 @@ import UseRefHook from "./8.Hook-useRef/1.Basic/UseRefHook";
 import ShowPrevValueWithLatest from "./8.Hook-useRef/2.Usage/1.ShowPrevValueWithLatest/ShowPrevValueWithLatest";
 import InputFormComponent from "./8.Hook-useRef/2.Usage/2.InputFormComponent/InputFormComponent";
 import UseReducerExample from "./9.Hook-useReducer/2.Usage/UseReducerExample";
+import Parent from "./13.Performance/3.FunctionProps/Parent";
+// import Parent from "./13.Performance/2.valueProps/Parent";
+// import Parent from "./13.Performance/1.NoProps/Parent";
 // import Parent from "./2.Communication/3.Siblings/Parent";
 // import Parent from "./2.Communication/2.ChildToParent/Parent";
 // import Parent from "./2.Communication/1.ParentToChild/Parent";
@@ -132,7 +135,9 @@ function App() {
       {/* <ShowPrevValueWithLatest /> */}
       {/* <InputFormComponent /> */}
 
-      <UseReducerExample />
+      {/* <UseReducerExample /> */}
+
+      <Parent />
     </>
   );
 }
