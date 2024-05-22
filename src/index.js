@@ -8,6 +8,9 @@ import CounterComponent from "./1.BasicReact/2.CounterComponent/CounterComponent
 import RoutingApp from "./10.RoutingApp/RoutingApp";
 import { BrowserRouter } from "react-router-dom";
 import ContextAPIReactApp from "./11.ContextApi/ContextAPIReactApp";
+import ReduxApp from "./12.Redux/ReduxApp";
+import { Provider } from "react-redux";
+import store from "./12.Redux/Store/Store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,7 +22,11 @@ root.render(
   //   <RoutingApp />
   // </BrowserRouter>
 
-  <ContextAPIReactApp />
+  // <ContextAPIReactApp />
+
+  <Provider store={store()}>
+    <ReduxApp />
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
